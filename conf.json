@@ -1,0 +1,75 @@
+{
+  "browser": "chrome",
+  "chromeConf": {
+    "chromeDriverLocation": "..\\..\\..\\tools\\webdriver\\chrome\\chromedriver_75.exe",
+    "chromeBinaryLocation": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "firefoxConf": {
+    "geckoDriverLocation": "..\\..\\..\\tools\\webdriver\\gecko\\geckodriver_v0.24.0.exe",
+    "firefoxBinaryLocation": "‪C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "firefoxLogFile": ".\\firefox.log",
+  },
+  "ffprobeLocation": "D:\\Program Files\\ffmpeg-4.1.3-win64-static\\bin\\ffprobe.exe",
+  "ffmpegLocation": "D:\\Program Files\\ffmpeg-4.1.3-win64-static\\bin\\ffmpeg.exe",
+  "videoBaseDir": "E:\\mov\\",
+  "outputDir": ".\\",
+  "webdriverTimeouts": {
+    "qzone": {
+      "defaultImplicitly": 60,
+      "defaultPageLoad": 60,
+      "defaultScript": 60,
+      "uploadImplicitly": 120
+    }
+  },
+  "animeList": [{
+    "animeDir": "nichijou720p\\",
+    "animeName": "《日常》",
+    "remoteAlbumName": "postbot-nichijou",
+    "episodeList": [
+      { "episodeFile": "ep01_s.mp4", "episodeName": "第01话" },
+      { "episodeFile": "ep02_s.mp4", "episodeName": "第02话" },
+      { "episodeFile": "ep03_s.mp4", "episodeName": "第03话" },
+      { "episodeFile": "ep04_s.mp4", "episodeName": "第04话" },
+      { "episodeFile": "ep05_s.mp4", "episodeName": "第05话" },
+      { "episodeFile": "ep06_s.mp4", "episodeName": "第06话" },
+      { "episodeFile": "ep07_s.mp4", "episodeName": "第07话" },
+      { "episodeFile": "ep08_s.mp4", "episodeName": "第08话" },
+      { "episodeFile": "ep09_s.mp4", "episodeName": "第09话" },
+      { "episodeFile": "ep10_s.mp4", "episodeName": "第10话" },
+      { "episodeFile": "ep11_s.mp4", "episodeName": "第11话" },
+      { "episodeFile": "ep12_s.mp4", "episodeName": "第12话" },
+      { "episodeFile": "ep13_s.mp4", "episodeName": "第13话" },
+      { "episodeFile": "ep14_s.mp4", "episodeName": "第14话" },
+      { "episodeFile": "ep15_s.mp4", "episodeName": "第15话" },
+      { "episodeFile": "ep16_s.mp4", "episodeName": "第16话" },
+      { "episodeFile": "ep17_s.mp4", "episodeName": "第17话" },
+      { "episodeFile": "ep18_s.mp4", "episodeName": "第18话" },
+      { "episodeFile": "ep19_s.mp4", "episodeName": "第19话" },
+      { "episodeFile": "ep20_s.mp4", "episodeName": "第20话" },
+      { "episodeFile": "ep21_s.mp4", "episodeName": "第21话" },
+      { "episodeFile": "ep22_s.mp4", "episodeName": "第22话" },
+      { "episodeFile": "ep23_s.mp4", "episodeName": "第23话" },
+      { "episodeFile": "ep24_s.mp4", "episodeName": "第24话" },
+      { "episodeFile": "ep25_s.mp4", "episodeName": "第25话" },
+      { "episodeFile": "ep26_s.mp4", "episodeName": "第26话" }]
+  },{
+    "animeDir": "brs720p\\",
+    "animeName": "《黑岩射手》",
+    "remoteAlbumName": "postbot-brs",
+    "episodeList": [
+      { "episodeFile": "ep01.mp4", "episodeName": "第01话 还要再呼喊多少次呢" },
+      { "episodeFile": "ep02.mp4", "episodeName": "第02话 拥抱黎明的天空" },
+      { "episodeFile": "ep03.mp4", "episodeName": "第03话 忍住的眼泪快溢出来了" },
+      { "episodeFile": "ep04.mp4", "episodeName": "第04话 似曾梦见过的世界大门即将封闭" },
+      { "episodeFile": "ep05.mp4", "episodeName": "第05话 BLACK★ROCK SHOOTER" },
+      { "episodeFile": "ep06.mp4", "episodeName": "第06话 不可能存在的过往的希望" },
+      { "episodeFile": "ep07.mp4", "episodeName": "第07话 向着划过黑夜的流星许下心愿" },
+      { "episodeFile": "ep08.mp4", "episodeName": "第08话 超越世界" }]
+  }],
+  "auth": {
+    "qzone": {
+      "username": "QQ号码",
+      "password": "QQ密码"
+    }
+  }
+}

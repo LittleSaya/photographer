@@ -1,0 +1,14 @@
+Chrome：
+	现象：
+		点击登录之后卡死，下一步无论是执行driver.get()、driver.manage()还是执行driver.findElement()都会得到超时的结果
+		Timed out receiving message from renderer
+	可能的解决方案：
+		延长点击登录按钮之后的等待时间
+		使浏览器不下载图片（和css）
+		使用旧版本浏览器
+		使用在页面上执行javascript的方式跳转页面
+		使用None作为页面加载策略+手动等待（正解）
+
+Firefox：
+	现象：
+		尚未记录
